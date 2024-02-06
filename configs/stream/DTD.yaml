@@ -1,0 +1,23 @@
+name: "DTD"
+dataset_dir: "/data/zhangdingchu/data/data/Tiny-ImageNet-C"
+batch_size: 64
+dataset: DTD
+num_class: 47
+severities:
+  - 0
+corruptions:
+  - gaussian_noise
+  - shot_noise
+  - impulse_noise
+  - defocus_blur
+  - glass_blur
+  - motion_blur
+  - zoom_blur
+  - snow
+  - frost
+  - fog
+  - brightness
+  - contrast
+  - elastic_transform
+  - pixelate
+  - jpeg_compression

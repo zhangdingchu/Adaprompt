@@ -1,0 +1,7 @@
+name: "food101"
+dataset_dir: "/data/zhangdingchu/data/data/Tiny-ImageNet-C"
+batch_size: 128
+dataset: food101
+num_class: 101
+severities:
+  - 0

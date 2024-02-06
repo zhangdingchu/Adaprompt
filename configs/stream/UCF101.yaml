@@ -1,0 +1,7 @@
+name: "UCF101"
+dataset_dir: "/data/zhangdingchu/data/data/Tiny-ImageNet-C"
+batch_size: 64
+dataset: UCF101
+num_class: 101
+severities:
+  - 0

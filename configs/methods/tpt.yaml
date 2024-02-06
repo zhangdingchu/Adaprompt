@@ -1,0 +1,6 @@
+name: "tpt"
+method: tpt
+optim:
+  lr: 0.005
+selection_p: 0.1
+tta_steps: 1

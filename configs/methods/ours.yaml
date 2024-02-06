@@ -1,0 +1,7 @@
+name: "ours"
+method: ours
+queue_size: 64
+num_class: 10
+updateCriterion: Threshold
+chooseThreshold: 0.70
+lr: 0.005

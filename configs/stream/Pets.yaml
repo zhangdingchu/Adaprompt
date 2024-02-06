@@ -1,0 +1,7 @@
+name: "Pets"
+dataset_dir: "/data/zhangdingchu/data/data/Tiny-ImageNet-C"
+batch_size: 64
+dataset: Pets
+num_class: 37
+severities:
+  - 0

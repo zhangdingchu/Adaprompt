@@ -1,0 +1,9 @@
+name: "R"
+dataset_dir: "/data/zhangdingchu/data/data/Tiny-ImageNet-C"
+batch_size: 64
+dataset: R
+num_class: 200
+severities:
+  - 0
+corruptions:
+  - gaussian_noise

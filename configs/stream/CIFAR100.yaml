@@ -1,0 +1,23 @@
+name: "CIFAR100"
+dataset_dir: "/data/zhangdingchu/data/data"
+batch_size: 64
+dataset: CIFAR100C
+num_class: 100
+severities:
+  - 3
+corruptions:
+  - gaussian_noise
+  - shot_noise
+  - impulse_noise
+  - defocus_blur
+  - glass_blur
+  - motion_blur
+  - zoom_blur
+  - snow
+  - frost
+  - fog
+  - brightness
+  - contrast
+  - elastic_transform
+  - pixelate
+  - jpeg_compression
