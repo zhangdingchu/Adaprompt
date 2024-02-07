@@ -10,7 +10,7 @@ __all__ = ['StreamDataset']
 class StreamDataset(metaclass=ABCMeta):
     NAME = "NULL" 
 
-    def __init__(self, root="/data", batch_size=64, seed=998244353):
+    def __init__(self, root="./MyDATA", batch_size=64, seed=998244353):
         self.root, self.seed = root, seed
         self.batch_size = batch_size
         self.rand = np.random.RandomState(seed=seed)
