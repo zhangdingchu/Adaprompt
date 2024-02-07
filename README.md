@@ -15,9 +15,16 @@ Install conda environment
 
 `conda install --yes --file requirements.txt`
 
+## Datasets
+
+Download the datasets [CIFAR10-C](https://zenodo.org/records/2535967), [CIFAR100-C](https://zenodo.org/records/3555552) and [TinyImageNet-C](https://zenodo.org/records/2536630).
+
+Download cross-validation datasets by [TPT](https://github.com/azshue/TPT?tab=readme-ov-file).
+
+
 ## Run
 
-1. Place the dataset in the DATA folder
+1. Place the dataset in the `./DATA` folder
 
 2. Run Adaprompt
 
@@ -33,3 +40,7 @@ Install conda environment
 
 
 5. The results will be printed and stored in `./results/.`
+
+## Acknowledgment
+
+We thank the authors for the following repositories for code reference: [TPT](https://github.com/azshue/TPT?tab=readme-ov-file).
