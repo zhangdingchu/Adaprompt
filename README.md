@@ -17,10 +17,9 @@ Install conda environment
 
 ## Datasets
 
-Download the datasets [CIFAR10-C](https://zenodo.org/records/2535967), [CIFAR100-C](https://zenodo.org/records/3555552) and [TinyImageNet-C](https://zenodo.org/records/2536630).
+Download the datasets [CIFAR10-C](https://zenodo.org/records/2535967), [CIFAR100-C](https://zenodo.org/records/3555552),[ImageNet-R](https://github.com/hendrycks/imagenet-r/?tab=readme-ov-file) and [TinyImageNet-C](https://zenodo.org/records/2536630).
 
 Download cross-validation datasets by [TPT](https://github.com/azshue/TPT?tab=readme-ov-file).
-
 
 ## Run
 
@@ -37,7 +36,6 @@ Download cross-validation datasets by [TPT](https://github.com/azshue/TPT?tab=re
 4. Run Source
 
     `python ./test.py ./MyDATA --test_sets CIFAR10_C -a ViT-B/16 -b 64 --gpu 0 --tpt --ctx_init a_photo_of_a --result-dir ./results/source --method-config ./configs/methods/source.yaml `
-
 
 5. The results will be printed and stored in `./results/.`
 
