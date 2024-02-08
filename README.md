@@ -5,6 +5,8 @@ This repository provides the official PyTorch implementation of our AAAI 2024 pa
 > Robust Test-Time Adaptation for Zero-Shot Prompt Tuning
 > Authors: *Ding-Chu Zhang\*, Zhi Zhou\*, Yu-Feng Li*
 
+For more details, please check out our [paper](https://www.lamda.nju.edu.cn/zhangdc/files/AAAI24/AAAI24_CR.pdf).
+
 ## Environment
 
 Install pip environment
